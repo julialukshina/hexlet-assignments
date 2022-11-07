@@ -29,6 +29,11 @@ public class UserController {
     }
 
     // BEGIN
-    
+    @PostMapping
+    public void createUser(@RequestBody User user){
+        user.setPassword(encoder.encode(user.getPassword()));
+        userRepository.save(user);
+    }
+
     // END
 }

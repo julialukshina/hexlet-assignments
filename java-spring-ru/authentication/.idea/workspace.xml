@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="695a9bbb-c099-4a65-8ef6-69979d00dfa1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/exercise/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/exercise/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../filtration/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../filtration/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../finite-state-machine/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../finite-state-machine/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../migrations/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../migrations/.idea/gradle.xml" afterDir="false" />
@@ -25,6 +29,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -61,8 +68,8 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.AppTest">
-    <configuration name="AppTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AppTest (1)">
+    <configuration name="AppTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -140,7 +147,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AppTest" />
+        <item itemvalue="Gradle.AppTest (1)" />
         <item itemvalue="Gradle.AppTest.testUnauthorized" />
         <item itemvalue="Gradle.AppTest.testUnauthorizedRootPage" />
       </list>
@@ -154,7 +161,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667828884710</updated>
-      <workItem from="1667828886100" duration="2318000" />
+      <workItem from="1667828886100" duration="2698000" />
     </task>
     <servers />
   </component>

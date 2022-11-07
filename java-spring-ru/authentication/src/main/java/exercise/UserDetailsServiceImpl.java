@@ -25,7 +25,9 @@ public class UserDetailsServiceImpl implements UserDetailsService {
         List<SimpleGrantedAuthority> authorities = List.of(new SimpleGrantedAuthority("user"));
 
         // BEGIN
-        
+        User user = repository.findAllByUsername(username)
+                .orElseThrow(() -> new UserNotFoundException("User not found"));
+        return (UserDetails) user;
         // END
     }
 }
